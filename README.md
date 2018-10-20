@@ -1,6 +1,6 @@
 # Pattern regression implementations
 
-The codes for pattern regression based individualized behavioral prediction analysis. 
+The codes for pattern regression based individualized behavioral prediction analysis. I have made substantial changes based on our previous codes in paper Cui and Gong, 2018, NeuroImage. I have tested these codes. If there is any problems, send email to zaixucui@gmail.com.
 
 Citing our related paper will be greatly appreciated if you use these codes.
 <br>&emsp; ```Zaixu Cui, Gaolang Gong; 2018, The effect of machine learning regression algorithms and sample size on individualized behavioral prediction with functional connectivity features, NeuroImage, Volume 178, Pages 622-637```
