@@ -1,6 +1,7 @@
 # Pattern regression implementations
 
 The codes for pattern regression based individualized behavioral prediction analysis. I have made substantial changes based on our previous codes in paper Cui and Gong, 2018, NeuroImage. I have tested these codes. If there is any problems, send email to zaixucui@gmail.com.
+
 See Wiki https://github.com/ZaixuCui/Pattern_Regression_Clean/wiki for the detailed documentation. 
 
 Citing our related paper will be greatly appreciated if you use these codes.
