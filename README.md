@@ -1,4 +1,4 @@
-# Pattern_Regression_Python
+# Pattern regression implementations
 
 The codes for pattern regression based individualized behavioral prediction analysis. 
 
