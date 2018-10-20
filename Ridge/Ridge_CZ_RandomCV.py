@@ -23,6 +23,10 @@ def Ridge_KFold_RandomCV_MultiTimes(Subjects_Data, Subjects_Score, Fold_Quantity
     # Therefore, here, we repeated multiple times and averaged all accuracies
     # About parameters, see help for the function 'Ridge_KFold_RandomCV'
     #
+    # CVRepeatTimes:
+    #      Set times of the repeatition, i.e., 20
+    # Other variables, see help of function Ridge_KFold_RandomCV
+    #
     if not os.path.exists(ResultantFolder):
         os.makedirs(ResultantFolder);
     Corr_MTimes = np.zeros(CVRepeatTimes);
