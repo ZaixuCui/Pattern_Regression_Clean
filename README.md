@@ -16,4 +16,4 @@ Generally, I like ridge regression and relevance vector regression algorithms, s
 
 We included the detailed documentation of ridge regression and relevance vector regression (RVR) in the wiki https://github.com/ZaixuCui/Pattern_Regression_Clean/wiki.
 The usage of codes of linear regression, lasso and elastic-net is similar to that of ridge regression (https://github.com/ZaixuCui/Pattern_Regression_Clean/wiki/Ridge-regression-manual).
-The usage of codes of support vector regression is similar to that of relevance vector regression ().
+The usage of codes of support vector regression is similar to that of relevance vector regression (https://github.com/ZaixuCui/Pattern_Regression_Clean/wiki/RVR-manual).
