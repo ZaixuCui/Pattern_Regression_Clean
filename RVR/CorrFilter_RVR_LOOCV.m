@@ -28,7 +28,7 @@ function Prediction = CorrFilter_RVR_LOOCV(Subjects_Data, Subjects_Scores, CoefT
 %
 % If you use this code, please cite: 
 %                       Cui et al., 2018, Cerebral Cortex; 
-%                       Cui and Gong et al., 2018, NeuroImage; 
+%                       Cui and Gong, 2018, NeuroImage; 
 %                       Cui et al., 2016, Human Brain Mapping.
 % (google scholar: https://scholar.google.com.hk/citations?user=j7amdXoAAAAJ&hl=zh-TW&oi=ao)
 %
