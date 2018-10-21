@@ -2,7 +2,9 @@
 
 The codes for pattern regression based individualized behavioral prediction analysis. I have made substantial changes based on our previous codes in paper ```Cui and Gong, 2018, NeuroImage```. I have tested these codes. If there is any problems, send email to zaixucui@gmail.com.
 
-See Wiki https://github.com/ZaixuCui/Pattern_Regression_Clean/wiki for the detailed documentation. 
+We included detailed documentation of ridge regression and relevance vector regression (RVR) in the wiki https://github.com/ZaixuCui/Pattern_Regression_Clean/wiki.
+The usage of codes of linear regression, lasso and elastic-net is similar to that of ridge regression (https://github.com/ZaixuCui/Pattern_Regression_Clean/wiki/Ridge-regression-manual).
+The usage of codes of support vector regression is similar to that of relevance vector regression (https://github.com/ZaixuCui/Pattern_Regression_Clean/wiki/RVR-manual).
 
 Citing our related paper will be greatly appreciated if you use these codes.
 <br>&emsp; ```Zaixu Cui, Gaolang Gong; 2018, The effect of machine learning regression algorithms and sample size on individualized behavioral prediction with functional connectivity features, NeuroImage, Volume 178, Pages 622-637```
@@ -13,7 +15,3 @@ The scikit-learn library (version: 0.16.1) was used to implement OLS regression,
 Note: Codes for RVR will not work well in Matlab higher than 2012 version.
 
 Generally, I like ridge regression and relevance vector regression algorithms, see ```Cui and Gong, 2018, NeuroImage```.
-
-We included detailed documentation of ridge regression and relevance vector regression (RVR) in the wiki https://github.com/ZaixuCui/Pattern_Regression_Clean/wiki.
-The usage of codes of linear regression, lasso and elastic-net is similar to that of ridge regression (https://github.com/ZaixuCui/Pattern_Regression_Clean/wiki/Ridge-regression-manual).
-The usage of codes of support vector regression is similar to that of relevance vector regression (https://github.com/ZaixuCui/Pattern_Regression_Clean/wiki/RVR-manual).
