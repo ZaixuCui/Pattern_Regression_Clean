@@ -11,11 +11,11 @@ function Prediction = RVR_NFolds_RandomCV(Subjects_Data, Subjects_Scores, FoldQu
 % FoldQuantity: 
 %           The quantity of folds, 10 is recommended
 %
+% CVRepeatTimes:
+%           Repeatition times for the random n-folds cross-validation
+%
 % Pre_Method:
 %           'Normalize', 'Scale', 'None'
-%
-% Weight_Flag:
-%           whether to compute the weight, 1 or 0
 %
 % ResultantFolder:
 %           the path of folder storing resultant files

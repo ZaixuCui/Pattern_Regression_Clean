@@ -17,6 +17,10 @@ function Prediction = RVR_NFolds_Sort(Subjects_Data, Subjects_Scores, FoldQuanti
 % Weight_Flag:
 %           whether to compute the weight, 1 or 0
 %
+% Permutation_Flag:
+%           1: do permutation
+%           0: not for permutation
+%
 % ResultantFolder:
 %           the path of folder storing resultant files
 %
