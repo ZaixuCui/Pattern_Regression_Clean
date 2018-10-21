@@ -18,7 +18,8 @@ function Prediction = RVR_NFolds_Sort(Subjects_Data, Subjects_Scores, FoldQuanti
 %           whether to compute the weight, 1 or 0
 %
 % Permutation_Flag:
-%           1: do permutation
+%           1: do permutation testing, if permutation, we will permute the
+%           scores acorss all subjects
 %           0: not for permutation
 %
 % ResultantFolder:
