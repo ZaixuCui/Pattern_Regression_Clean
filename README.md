@@ -12,7 +12,7 @@ Citing our related paper will be greatly appreciated if you use these codes.
 The scikit-learn library (version: 0.16.1) was used to implement OLS regression, LASSO regression, ridge regression and elastic-net regression (http://scikit-learn.org/) (Pedregosa et al., 2011), the LIBSVM function in MATLAB was used to implement LSVR (https://www.csie.ntu.edu.tw/~cjlin/libsvm/) (Chang and Lin, 2011), the PRoNTo toolbox (http://www.mlnl.cs.ucl.ac.uk/pronto/) was used to implement RVR (Schrouff et al., 2013). 
 Note: Codes for RVR will not work well in Matlab higher than 2012 version.
 
-Generally, I like ridge regression and relevance vector regression algorithms, see Cui and Gong, 2018, NeuroImage.
+Generally, I like ridge regression and relevance vector regression algorithms, see ```Cui and Gong, 2018, NeuroImage```.
 
 We included detailed documentation of ridge regression and relevance vector regression (RVR) in the wiki https://github.com/ZaixuCui/Pattern_Regression_Clean/wiki.
 The usage of codes of linear regression, lasso and elastic-net is similar to that of ridge regression (https://github.com/ZaixuCui/Pattern_Regression_Clean/wiki/Ridge-regression-manual).
