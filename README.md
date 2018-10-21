@@ -14,6 +14,6 @@ Note: Codes for RVR will not work well in Matlab higher than 2012 version.
 
 Generally, I like ridge regression and relevance vector regression algorithms, see Cui and Gong, 2018, NeuroImage.
 
-We included the detailed documentation of ridge regression and relevance vector regression (RVR) in the wiki https://github.com/ZaixuCui/Pattern_Regression_Clean/wiki.
+We included detailed documentation of ridge regression and relevance vector regression (RVR) in the wiki https://github.com/ZaixuCui/Pattern_Regression_Clean/wiki.
 The usage of codes of linear regression, lasso and elastic-net is similar to that of ridge regression (https://github.com/ZaixuCui/Pattern_Regression_Clean/wiki/Ridge-regression-manual).
 The usage of codes of support vector regression is similar to that of relevance vector regression (https://github.com/ZaixuCui/Pattern_Regression_Clean/wiki/RVR-manual).
