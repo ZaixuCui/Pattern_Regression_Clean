@@ -1,4 +1,4 @@
-function Prediction = RVR_LOOCV(Subjects_Data, Subjects_Scores, Pre_Method, Weight_Flag, ResultantFolder)
+function Prediction = RVR_LOOCV(Subjects_Data, Subjects_Scores, Pre_Method, Weight_Flag, Permutation_Flag, ResultantFolder)
 %
 % Subject_Data:
 %           m*n matrix
@@ -13,6 +13,11 @@ function Prediction = RVR_LOOCV(Subjects_Data, Subjects_Scores, Pre_Method, Weig
 %
 % Weight_Flag:
 %           whether to compute the weight, 1 or 0
+%
+% Permutation_Flag:
+%           1: do permutation testing, if permutation, we will permute the
+%           scores acorss all subjects
+%           0: not for permutation
 %
 % ResultantFolder:
 %           the path of folder storing resultant files
@@ -49,6 +54,11 @@ for i = 1:Subjects_Quantity
     test_score = Training_scores(i);
     Training_data(i, :) = [];
     Training_scores(i) = [];
+
+    if Permutation_Flag
+        RandIndex = randperm(Subjects_Quantity - 1);
+        Training_scores = Training_scores(RandIndex);
+    end
         
     if strcmp(Pre_Method, 'Normalize')
         %Normalizing
