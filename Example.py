@@ -1,4 +1,7 @@
 
+# Example about how to do prediction based on my codes 
+# Here is python codes, involving examples for ridge regression, lasso regression, elastic-net regression and linear regression
+
 import scipy.io as sio
 import numpy as np
 import os
