@@ -103,7 +103,7 @@ end
 
 Prediction.Score = Predicted_Scores;
 [Prediction.Corr, ~] = corr(Predicted_Scores', Subjects_Scores);
-Prediction.MAE = mean(abs((Predicted_Scores - Subjects_Scores)));
+Prediction.MAE = mean(abs((Predicted_Scores' - Subjects_Scores)));
 
 if nargin >= 5
     save([ResultantFolder filesep 'Prediction_res.mat'], 'Prediction');
