@@ -42,7 +42,7 @@ for i = 1:Times
     ResultantFolder_I = [ResultantFolder filesep 'Time_' num2str(i)];
     mkdir(ResultantFolder_I);
     
-    RVR_NFolds_Sort(Subjects_Data, Subjects_Scores, FoldQuantity, Pre_Method, 0, 1, ResultantFolder)
+    RVR_NFolds_Sort(Subjects_Data, Subjects_Scores, FoldQuantity, Pre_Method, 0, 1, ResultantFolder_I)
 end
 
 
