@@ -124,5 +124,5 @@ if nargin >= 7
     disp(['The correlation is ' num2str(Prediction.Mean_Corr)]);
     disp(['The MAE is ' num2str(Prediction.Mean_MAE)]);
     % Calculating w
-    W_Calculate_SVR(Subjects_Data, Subjects_Scores, Pre_Method, ResultantFolder); 
+    W_Calculate_SVR(Subjects_Data, Subjects_Scores, C_Parameter, Pre_Method, ResultantFolder); 
 end
