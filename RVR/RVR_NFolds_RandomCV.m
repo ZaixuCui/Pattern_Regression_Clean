@@ -1,4 +1,4 @@
-function Prediction = RVR_NFolds_RandomCV(Subjects_Data, Subjects_Scores, FoldQuantity, CVRepeatTimes, Pre_Method, ResultantFolder)
+function Prediction = RVR_NFolds_RandomCV(Subjects_Data, Subjects_Scores, FoldQuantity, CVRepeatTimes, Pre_Method, Permutation_Flag, ResultantFolder)
 %
 % Subject_Data:
 %           m*n matrix
