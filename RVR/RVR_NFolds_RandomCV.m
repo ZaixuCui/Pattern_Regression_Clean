@@ -60,6 +60,12 @@ for i = 1:CVRepeatTimes
         Training_data(Origin_ID{j}, :) = [];
         Training_scores(Origin_ID{j}) = [];
         
+        if Permutation_Flag
+            Training_Quantity = length(Training_scores);
+            RandIndex = randperm(Training_Quantity);
+            Training_scores = Training_scores(RandIndex);
+        end
+        
         if strcmp(Pre_Method, 'Normalize')
             % Normalizing
             MeanValue = mean(Training_data);
