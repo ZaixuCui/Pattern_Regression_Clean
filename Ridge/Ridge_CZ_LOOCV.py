@@ -59,7 +59,7 @@ def Ridge_LOOCV_Permutation(Subjects_Data, Subjects_Score, Times_IDRange, Alpha_
             sio.savemat(ResultantFolder_I + '/Configuration.mat', Configuration_Mat)
             system_cmd = 'python3 -c ' + '\'import sys;\
                 sys.path.append("' + os.getcwd() + '");\
-                from Ridge_CZ_Sort import Ridge_KFold_Sort_Permutation_Sub;\
+                from Ridge_CZ_LOOCV import Ridge_KFold_LOOCV_Permutation_Sub;\
                 import os;\
                 import scipy.io as sio;\
                 configuration = sio.loadmat("' + ResultantFolder_I + '/Configuration.mat");\
